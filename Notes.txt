@@ -1,0 +1,5 @@
+Approaches for dealing with imbalanced data:
+--------------------------------------------------------
+1. Sample method + supervised learning
+2. Autoencoder + SVM or Log. Regression
+
