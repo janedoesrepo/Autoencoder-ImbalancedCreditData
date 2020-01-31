@@ -73,7 +73,6 @@ dependencies:
   - numpy=1.17.4=py37h4320e6b_0
   - numpy-base=1.17.4=py37hc3f5095_0
   - openssl=1.1.1d=he774522_3
-  - opt_einsum=3.1.0=py_0
   - pandas=0.25.3=py37ha925a31_0
   - pandoc=2.2.3.2=0
   - pandocfilters=1.4.2=py37_1
@@ -98,7 +97,7 @@ dependencies:
   - pyzmq=18.1.0=py37ha925a31_0
   - qt=5.9.7=vc14h73c81de_0
   - qtconsole=4.6.0=py_0
-  - scikit-learn=0.21.3=py37h6288b17_0
+  - scikit-learn=0.22.1=py37h6288b17_0
   - scipy=1.3.1=py37h29ff71c_0
   - seaborn=0.9.0=pyh91ea838_1
   - send2trash=1.5.0=py37_0
@@ -128,10 +127,30 @@ dependencies:
   - zipp=0.6.0=py_0
   - zlib=1.2.11=h62dcd97_3
   - pip:
+    - astroid==2.3.3
+    - astropy==4.0
+    - atomicwrites==1.3.0
     - cffi==1.13.2
-#    - multicoretsne==0.1
+    - confuse==1.0.0
+    - htmlmin==0.1.12
+    - isort==4.3.21
+    - lazy-object-proxy==1.4.3
+    - llvmlite==0.31.0
+    - mccabe==0.6.1
+    - missingno==0.4.2
+    - numba==0.47.0
+    - opt-einsum==3.1.0
+    - packaging==20.0
+    - pandas-profiling==2.4.0
+    - phik==0.9.8
+    - pluggy==0.13.1
+    - py==1.8.1
     - pycparser==2.19
+    - pylint==2.4.4
+    - pytest==5.3.2
+    - pytest-pylint==0.14.1
     - tensorflow==2.0.0
     - tensorflow-estimator==2.0.1
-prefix: D:\Miniconda3\envs\creditcardfraud
+    - typed-ast==1.4.0
+prefix: C:\Users\jaengel\AppData\Local\Continuum\miniconda3\envs\creditcardfraud
 
