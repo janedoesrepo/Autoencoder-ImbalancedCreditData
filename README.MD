@@ -12,7 +12,7 @@ The dataset contains transactions made by credit cards in September 2013 by Euro
 
 ### Approach
 
-A Logistic Regression will be performed after applying different techniques for dealing with imbalanced data to the data set. A couple of options have been considered for dealing with the imbalance problem and the following five are implemented now:
+A Logistic Regression will be performed after applying different techniques for dealing with the imbalance in the data set. A couple of options have been considered for dealing with the imbalance problem and the following five are implemented now:
 
 1. **Logistic Regression:** this will show the performance on the imbalanced data and serves as a baseline for further comparison.
 2. **Autoencoder:** used to extract a latent representation of the training data. Compression of the data might improve the inherent information.
@@ -345,7 +345,7 @@ Now that the latent representation has been extracted the data can be classified
 ```python
 log_reg_cv = LogisticRegressionCV(Cs=5, scoring=accuracy, max_iter=lr_max_iterations, n_jobs=-1, random_state=seed)
 log_reg_cv.fit(X_train_latent, y_train_est)
-res = evaluate_model(test_data_latent, lrcv, name='Autoencoder')
+res = evaluate_model(test_data_latent, log_reg_cv, name='Autoencoder')
 results.append(res)
 ```
 
@@ -385,7 +385,7 @@ pipeline = imbPipeline([
 
 pipeline.fit(X_train, y_train)
 
-res = evaluate_model(test_data, model, name='Oversampling')
+res = evaluate_model(test_data, pipeline, name='Oversampling')
 results.append(res)
 ```
 
