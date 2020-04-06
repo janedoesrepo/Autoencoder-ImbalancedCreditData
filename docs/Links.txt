@@ -1,3 +1,0 @@
-https://blog.usejournal.com/credit-card-fraud-detection-by-neural-network-in-keras-4bd81cc9e7fe
-
-https://blog.goodaudience.com/neural-networks-for-anomaly-outliers-detection-a454e3fdaae8
