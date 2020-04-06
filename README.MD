@@ -280,13 +280,6 @@ history = autoencoder.fit(X_train_AE_scaled, X_train_AE_scaled,
     
 
 
-    HBox(children=(FloatProgress(value=1.0, bar_style='info', max=1.0), HTML(value='')))
-
-
-
-    HBox(children=(FloatProgress(value=1.0, bar_style='info', max=1.0), HTML(value='')))
-
-
     
     
 
@@ -479,19 +472,6 @@ pd.DataFrame(results,
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
