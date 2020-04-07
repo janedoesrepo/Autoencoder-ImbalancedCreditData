@@ -5,7 +5,7 @@
 ## Introduction
 
 - **Context:** In order to enhance security, credit card companies would like to detect fraudulent transactions. Machine Learning can help with this.
-- **Limitations:** It is relatively simple to increase the number of correctly classified fraudulent transactions at the cost of misclassifying normal transactions. Weighing the economic costs of misclassifying normal and fraudulent transactions and therefore identifying the best result is beyond the scope of the analysis. 
+- **Limitations:** It is relatively simple to increase the number of correctly classified fraudulent transactions at the cost of misclassifying normal transactions. Weighing the economic costs of misclassifying normal and fraudulent transactions is a business decision and therefore beyond the scope of this analysis. 
 
 ### Description of the Dataset
 The dataset contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions. (Source: [kaggle.com/mlg-ulb/creditcardfraud](https://www.kaggle.com/mlg-ulb/creditcardfraud))
